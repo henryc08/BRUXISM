@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from collections import deque
 
 # Serial configuration
-SERIAL_PORT = 'COM6'  # Change this to the correct port
+SERIAL_PORT = 'COM6' 
 BAUD_RATE = 115200
-DATA_POINTS = 100  # Number of points on the graph
+DATA_POINTS = 100  
 
 # Initialize serial connection
 ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
